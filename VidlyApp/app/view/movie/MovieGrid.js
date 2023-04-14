@@ -6,7 +6,7 @@ Ext.define('ClientApp1.view.movie.MovieGrid', {
         'ClientApp1.store.Movie'
     ],
 
-    title: 'Movie',
+    title: 'List of Movie',
 
     store: {
         type: 'movie'
