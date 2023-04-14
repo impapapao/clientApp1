@@ -35,11 +35,11 @@ Ext.define('ClientApp1.view.main.Main', {
         },
         title: {
             bind: {
-                text: '{name}'
+                text: 'Vidly'
             },
             flex: 0
         },
-        iconCls: 'fa-th-list'
+        
     },
 
     tabBar: {
@@ -90,7 +90,7 @@ Ext.define('ClientApp1.view.main.Main', {
             xtype: 'moviegrid'
         }
     }, {
-        title: 'Form',
+        title: 'Add Movie',
         iconCls: 'fa-upload',
         items: {
             xtype: 'form-movie'
