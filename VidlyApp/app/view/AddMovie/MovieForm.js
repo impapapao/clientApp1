@@ -9,7 +9,7 @@ Ext.define('ClientApp1.view.AddMovie.MovieForm', {
     scrollable: false,
     width:355,
     bodyStyle: 'center',
-    url: 'http://localhost:44334/Movie',
+    url: 'http://localhost:5001/api/Movies',
     method: 'POST',
 
     fieldDefaults: {

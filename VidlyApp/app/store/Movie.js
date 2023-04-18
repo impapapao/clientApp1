@@ -11,7 +11,8 @@ Ext.define('ClientApp1.store.Movie', {
 
     proxy: {
         type: 'ajax',
-        url: 'https://localhost:5001/Movie',
+        url: 'http://localhost:5001/api/Movies',
+        method: 'Get',
         reader: {
             rootProperty: 'items'
         }
